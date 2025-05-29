@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+    <header>
+        <h1>MNSS Hospital</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="appointment.html">Appointment</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="anisa.html">Login</a></li>
+                <li><a href="medicines.html">Medicines</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="appointment">
+        <h2>Book an Appointment</h2><br><br>
+        <form>
+            <label for=1 > Name: </label><input id=1  type="text" name="name" placeholder="Full Name" required><br><br>
+            <label for=2 >Email: </label><input id=2 type="email" name="email" placeholder="Email Address" required><br><br>
+            <label for=3 >Phone Number: </label><input  id=3 type="tel" name="phone" placeholder="Phone Number" required><br><br>
+            <label fro=4 > Date: </label><input id=4 type="date" name="date" required><br><br>
+            <label for=5 > Department: </label><select name="department"><br><br>
+                <option value="select" hidden>select department</option>
+                <option value="General">General Checkup</option>
+                <option value="Cardiology">Cardiology</option>
+                <option value="Orthopedic">Orthopedic</option>
+                <option value="Pediatrics">Pediatrics</option>
+            </select><br><br>
+            <button type="submit">Book Appointment</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MNSS Hospital. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
